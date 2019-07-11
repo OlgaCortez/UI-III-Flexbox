@@ -122,9 +122,6 @@ margin: 0 auto;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	/* align-content: center; */
-	/* align-items: center; */
-
 }
 
 ul.square {
@@ -132,15 +129,30 @@ ul.square {
 }
 
 .facts {
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	border: none;
+	text-align: left;
+
+}
+
+.boxes {
+	border-bottom: 2px solid black;
+}
+
+.facts {
 	display: flex;
 	flex-direction: row;
-	align-content: center;
+	flex-wrap: wrap;
+	
+
+}
+
+footer {
+	text-align: center;
 }
 
 
 
 
-/* position: absolute;
-right: 0px;
-width: 150px;
-padding: 0px; */
